@@ -19,7 +19,7 @@ public class CarController {
 
     @PostMapping
     public String postCar(@RequestBody @Valid CarDTO car){
-        String creation = "Creating a new cars";
+        String creation = "Creating a new car";
         return creation + car.toString();
     }
 }
