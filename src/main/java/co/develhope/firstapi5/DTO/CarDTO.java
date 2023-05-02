@@ -1,9 +1,7 @@
 package co.develhope.firstapi5.DTO;
 
 import jakarta.validation.constraints.NotBlank;
-import org.springframework.stereotype.Component;
 
-@Component
 public class CarDTO {
     @NotBlank(message="Mandatory!")
     private String id;

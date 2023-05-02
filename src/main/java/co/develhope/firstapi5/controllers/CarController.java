@@ -9,8 +9,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/cars")
 public class CarController {
 
-    @Autowired
-    CarDTO carDTO;
+    CarDTO carDTO = new CarDTO();
 
     @GetMapping
     public String getCar(){
