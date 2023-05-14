@@ -2,7 +2,6 @@ package co.develhope.firstapi5.controllers;
 
 import co.develhope.firstapi5.DTO.CarDTO;
 import jakarta.validation.Valid;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
